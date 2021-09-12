@@ -19,10 +19,10 @@
     display: none;
   }
 
-  /*WIREFRAMES*/
+  /*WIREFRAMES
   .frame {
     border: 1px dotted red;
-  }
+  }*/
 
   html {
     scroll-behavior: smooth;
