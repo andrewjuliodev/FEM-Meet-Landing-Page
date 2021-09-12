@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap");
 
+/*For Mobile Phones less than 720px max-width*/
 @import "mobile.css";
 
-/* @import "tablet.css";
-@import "desktop.css"; */
+/*For Tabelts Phones less than 720px max-width*/
+@import "tablet.css";
+
+/*For Desktops more than 720px max-width*/
+@import "desktop.css";
