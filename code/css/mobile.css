@@ -21,3 +21,14 @@ p {
   font-size: 16px;
   line-height: 26px;
 }
+
+/*BODY*/
+.container {
+  width: 375px;
+  height: 2215px;
+  background-color: white;
+}
+
+.section {
+  margin: 0 30px;
+}
