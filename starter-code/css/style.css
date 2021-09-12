@@ -1,3 +1,36 @@
 @import "mobile.css";
 @import "tablet.css";
 @import "desktop.css";
+
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+/*WIREFRAMES*/
+.frame {
+  border: 1px dotted red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*BODY*/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(235, 176, 176);
+  font-family: "Red Hat Display", sans-serif;
+}
