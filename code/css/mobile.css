@@ -1,25 +1,87 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap");
 
 /*TEXT*/
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
 h1 {
   font-size: 40px;
   line-height: 44px;
+  font-weight: 900;
+  margin-top: 48px;
 }
 
 h2 {
   font-size: 32px;
   line-height: 36px;
+  font-weight: 900;
+  margin: 24px 24px 0 24px;
+}
+
+.section2 h2 {
+  margin: 88px 24px 0 24px;
+  color: white;
 }
 
 h3 {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 4px;
+  margin-top: 64px;
+  color: #4d96a9;
 }
 
 p {
   font-size: 16px;
+  font-weight: 500;
   line-height: 26px;
+  margin-top: 24px;
+  color: hsla(239, 10%, 57%, 1);
+  margin: 24px 24px 0 24px;
+}
+
+.section2 p {
+  color: white;
+}
+
+/*BUTTONS*/
+button {
+  height: 58px;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  border-radius: 50px;
+  line-height: 26px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.download {
+  width: 193px;
+  background-color: #4d96a9;
+  margin-top: 35px;
+}
+
+span {
+  color: #8fe3f9;
+}
+
+.what {
+  width: 139px;
+  background-color: #855fb1;
+  margin-top: 15px;
+}
+
+.section2 button {
+  height: 58px;
+  width: 193px;
+  background-color: #855fb1;
+  margin-top: 32px;
+}
+
+.section2 button span {
+  color: hsla(268, 100%, 86%, 1);
 }
 
 /*BODY*/
@@ -27,8 +89,22 @@ p {
   width: 375px;
   height: 2215px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.section {
+  width: 375px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*LOGO SECTION*/
 .logo {
   width: 375px;
   height: 283px;
@@ -38,14 +114,14 @@ p {
   grid-template-areas:
     "logo logo"
     "left right";
-  background-color: wheat;
+  overflow: hidden;
 }
 
 .meetLogo {
   width: 119px;
   height: 28px;
   grid-area: logo;
-  margin: 62px 128px;
+  margin: 48px 128px;
 }
 
 .heroesLeft {
@@ -62,20 +138,100 @@ p {
   margin-left: 8px;
 }
 
-.section {
-  width: 315px;
-  margin: 0 30px;
-  text-align: center;
-}
+/*INTRO SECTION*/
 
-.intro {
-  height: 500px;
-}
-
-.section1 {
-  height: 500px;
-}
-
+/*SECTION 1 SECTION*/
+.section1,
 .section2 {
-  height: 500px;
+  margin-top: 64px;
+}
+
+.number1,
+.number2 {
+  width: 315px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  width: 1px;
+  height: 84px;
+  border: 1px solid #87879d;
+  opacity: 0.25;
+}
+
+.number {
+  width: 56px;
+  height: 56px;
+  color: #87879d;
+  border-radius: 50%;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  margin-top: 0;
+  line-height: 56px;
+}
+
+.pictures {
+  width: 327px;
+  height: 310px;
+  display: grid;
+  grid-template-columns: 151px 25px 151px;
+  grid-template-rows: 143px 25px 143px;
+  grid-template-areas:
+    "woman . women"
+    ". . ."
+    "men . man";
+  margin-left: -6px;
+  margin-top: 64px;
+}
+
+.picture {
+  width: 151px;
+  height: 143px;
+  border-radius: 10px;
+}
+
+.woman {
+  grid-area: woman;
+}
+
+.women {
+  grid-area: women;
+}
+
+.man {
+  grid-area: man;
+}
+
+.men {
+  grid-area: men;
+}
+
+/*SECTION 2 SECTION*/
+.section2 {
+  height: 540px;
+}
+
+.section2 .number2 {
+  height: 112px;
+  position: relative;
+  top: 28px;
+}
+
+.section2 .number {
+  background-color: white;
+  color: #87879d;
+}
+
+.footer {
+  height: 428px;
+  width: 375px;
+  background: linear-gradient(
+      hsla(192, 37%, 48%, 90%),
+      hsla(192, 37%, 48%, 90%)
+    ),
+    url(/code/assets/mobile/image-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
