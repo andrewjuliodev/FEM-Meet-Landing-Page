@@ -101,6 +101,10 @@
     margin-right: 16px;
   }
 
+  .download:hover {
+    background-color: #71c0d4;
+  }
+
   span {
     color: #8fe3f9;
   }
@@ -109,6 +113,10 @@
     width: 139px;
     background-color: #855fb1;
     margin-top: 15px;
+  }
+
+  .what:hover {
+    background-color: #b18bdd;
   }
 
   /*BODY*/
@@ -307,6 +315,10 @@
     width: 193px;
     background-color: #855fb1;
     margin: 0;
+  }
+
+  .section2 button:hover {
+    background-color: #b18bdd;
   }
 
   .section2 button span {
