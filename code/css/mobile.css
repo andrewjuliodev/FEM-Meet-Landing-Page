@@ -29,6 +29,53 @@ p {
   background-color: white;
 }
 
+.logo {
+  width: 375px;
+  height: 283px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 130px 153px;
+  grid-template-areas:
+    "logo logo"
+    "left right";
+  background-color: wheat;
+}
+
+.meetLogo {
+  width: 119px;
+  height: 28px;
+  grid-area: logo;
+  margin: 62px 128px;
+}
+
+.heroesLeft {
+  grid-area: left;
+  width: 207px;
+  height: 153px;
+  margin-left: -26px;
+}
+
+.heroesRight {
+  grid-area: right;
+  width: 207px;
+  height: 153px;
+  margin-left: 8px;
+}
+
 .section {
+  width: 315px;
   margin: 0 30px;
+  text-align: center;
+}
+
+.intro {
+  height: 500px;
+}
+
+.section1 {
+  height: 500px;
+}
+
+.section2 {
+  height: 500px;
 }
