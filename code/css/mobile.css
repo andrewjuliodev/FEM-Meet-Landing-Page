@@ -51,6 +51,7 @@ button {
   height: 58px;
   color: white;
   font-size: 16px;
+  font-style: normal;
   font-weight: 900;
   border-radius: 50px;
   line-height: 26px;
@@ -156,7 +157,7 @@ span {
 }
 
 .line {
-  width: 1px;
+  width: 0px;
   height: 84px;
   border: 1px solid #87879d;
   opacity: 0.25;
