@@ -81,6 +81,10 @@
     margin: 0 91px;
   }
 
+  button:hover {
+    cursor: pointer;
+  }
+
   .download {
     width: 193px;
     background-color: #4d96a9;
