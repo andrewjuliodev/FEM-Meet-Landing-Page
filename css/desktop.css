@@ -75,7 +75,7 @@
   }
 
   .section1 p {
-    margin: 0px 450px 0 450px;
+    margin: 0 450px;
   }
 
   .section2 p {
@@ -161,7 +161,7 @@
 
   /*INTRO SECTION*/
   .intro {
-    width: 1440px;
+    width: 1504px;
     height: 358px;
     display: grid;
     grid-template-columns: 394px 716px 394px;
@@ -174,7 +174,7 @@
   .heroesRight {
     grid-area: left;
     width: 394px;
-    height: 303px;
+    height: 358px;
     margin-bottom: 55px;
   }
 
