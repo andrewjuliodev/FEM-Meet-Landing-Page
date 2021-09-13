@@ -39,8 +39,8 @@
 
   /*TEXT*/
   h1 {
-    font-size: 40px;
-    line-height: 44px;
+    font-size: 64px;
+    line-height: 64px;
     font-weight: 900;
     margin-top: 48px;
   }
@@ -132,6 +132,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
 
   .section {
@@ -165,21 +166,16 @@
     height: 358px;
     display: grid;
     grid-template-columns: 394px 716px 394px;
-    grid-template-rows: 100%;
     grid-template-areas: "left message right";
-    overflow: hidden;
-  }
-
-  .heroesLeft,
-  .heroesRight {
-    grid-area: left;
-    width: 394px;
-    height: 303px;
   }
 
   .heroesLeft {
-    margin-bottom: 44px;
+    grid-area: left;
+    width: 394px;
+    height: 303px;
+    margin-bottom: 55px;
   }
+
   .message {
     grid-area: message;
     width: 716px;
@@ -188,7 +184,9 @@
 
   .heroesRight {
     grid-area: right;
-    margin-top: 45px;
+    width: 394px;
+    height: 303px;
+    margin-top: 20px;
   }
 
   /*SECTION 1 SECTION*/
