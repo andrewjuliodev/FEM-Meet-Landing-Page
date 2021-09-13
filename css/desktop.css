@@ -174,10 +174,12 @@
   .heroesRight {
     grid-area: left;
     width: 394px;
-    height: 358px;
-    margin-bottom: 55px;
+    height: 303px;
   }
 
+  .heroesLeft {
+    margin-bottom: 44px;
+  }
   .message {
     grid-area: message;
     width: 716px;
@@ -186,6 +188,7 @@
 
   .heroesRight {
     grid-area: right;
+    margin-top: 45px;
   }
 
   /*SECTION 1 SECTION*/
