@@ -283,7 +283,7 @@
         hsla(192, 37%, 48%, 90%),
         hsla(192, 37%, 48%, 90%)
       ),
-      url(/assets/mobile/image-footer.jpg);
+      url(/assets/desktop/image-footer.jpg);
 
     mix-blend-mode: normal;
     background-size: cover;
